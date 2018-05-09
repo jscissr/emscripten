@@ -1936,7 +1936,7 @@ def read_metadata_wast(wast, DEBUG):
 def create_metadata_wasm(metadata_raw, DEBUG):
   if DEBUG: logging.debug("Metadata raw: " + metadata_raw)
   metadata = load_metadata(metadata_raw)
-  if DEBUG: logging.debug("Memadata parsed: " + pprint.pformat(metadata))
+  if DEBUG: logging.debug("Metadata parsed: " + pprint.pformat(metadata))
   return metadata
 
 
